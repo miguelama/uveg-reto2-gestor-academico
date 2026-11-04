@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="Gestor de tareas académico">
+		<title>Mi Gestor Académico</title>
+		<link rel="stylesheet" href="css/styles.min.css">
+	</head>
+	<body>
+		<main class="container">
+			<header>
+				<span class="tag">PROYECTO ACADÉMICO · UVEG</span>
+				<img
+				src="img/logo_gestor_academico.webp"
+				alt="Logotipo Mi Gestor Académico"
+				class="logo"
+				width="150"
+				height="150"
+				>
+				<h1>Mi Gestor Académico</h1>
+				<!-- BANNER -->
+				<img
+				src="img/banner_gestor_academico.webp"
+				alt="Banner de organización de actividades académicas"
+				class="banner"
+				width="1200"
+				height="400"
+				>
+				<p>Organiza tus actividades, marca avances y mantén tus pendientes visibles.</p>
+				</header><section class="panel">
+				<form id="taskForm">
+					<label for="task">Nueva actividad</label>
+					<div class="entry">
+						<input id="task" maxlength="100" placeholder="Ej. Revisar material de clase" required>
+						<button type="submit">Agregar</button>
+					</div>
+				</form>
+				<div class="stats">
+					<strong id="count">0 pendientes</strong>
+					<button class="secondary" id="clear" type="button">Borrar completadas</button>
+				</div>
+				<ul id="tasks" aria-live="polite">
+				</ul>
+				<p id="empty">Todavía no tienes actividades. Agrega la primera.</p>
+			</section>
+			<footer>Aplicación demostrativa · Miguel Angel Muñoz Alvarado</footer>
+		</main>
+		<script defer src="js/app.min.js">
+		</script>
+	</body>
+</html>
