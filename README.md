@@ -31,7 +31,7 @@ Sustituye la URL por tu repositorio real. Es preferible hacer commits de cambios
 ## Apache: despliegue de simulación
 1. Instalar Apache (XAMPP).
 2. Copiar el proyecto a "C:\xampp\htdocs\UVEG\reto2\tareasapp".
-3. Copiar `servidor/reto2-nginx.conf` a `/etc/nginx/sites-available/reto2`.
+3. Configurar 
 4. Habilitarlo con enlace simbólico en `sites-enabled` (deshabilitar configuraciones que colisionen en 8080).
 5. Ejecutar `sudo nginx -t` y `sudo systemctl reload nginx`.
 6. Abrir `http://localhost:8080/tuapp/` y comprobar la aplicación.
