@@ -7,7 +7,7 @@ Aplicación web estática de gestión de tareas: agregar, completar, eliminar y 
 - `css/styles.css` y `css/styles.min.css`: estilos fuente y optimizados.
 - `js/app.js` y `js/app.min.js`: lógica fuente y optimizada.
 - `img/`: reservado para imágenes optimizadas (la versión actual no usa imágenes externas).
-- `servidor/reto2-nginx.conf`: ejemplo de configuración Nginx para Linux.
+- `xampp/htdocs/UVEG/reto2/tareasapp`: Configuración con XAMPP para uso de Apache.
 - `evidencias/`: capturas reales del proceso que debe tomar el estudiante.
 
 ## Preparación y empaquetado
