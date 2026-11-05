@@ -28,9 +28,9 @@ git push -u origin main
 ```
 Sustituye la URL por tu repositorio real. Es preferible hacer commits de cambios reales en etapas, no commits vacíos: el segundo comando es solo un ejemplo técnico y no debe usarse como evidencia de trabajo no realizado.
 
-## Nginx: despliegue de simulación Linux
-1. Instalar Nginx en una VM o WSL Linux.
-2. Copiar el proyecto a `/var/www/html/tuapp/`.
+## Apache: despliegue de simulación
+1. Instalar Apache (XAMPP).
+2. Copiar el proyecto a "C:\xampp\htdocs\UVEG\reto2\tareasapp".
 3. Copiar `servidor/reto2-nginx.conf` a `/etc/nginx/sites-available/reto2`.
 4. Habilitarlo con enlace simbólico en `sites-enabled` (deshabilitar configuraciones que colisionen en 8080).
 5. Ejecutar `sudo nginx -t` y `sudo systemctl reload nginx`.
